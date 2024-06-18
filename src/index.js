@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {StrictMode} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -20,7 +20,10 @@ const text = 'Hello World!';
 // const elem = React.createElement('h2', {className: 'greetings'}, 'Hello Reha!');
 
 root.render(
-  <App />
+  <StrictMode>
+      <App />
+  </StrictMode>
+
 );
 
 
