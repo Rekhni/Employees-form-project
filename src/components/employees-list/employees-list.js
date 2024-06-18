@@ -1,14 +1,19 @@
 import EmployeesListItem from "../employees-list-item/employees-list-item"
 import './employees-list.css'
 
-const EmployeesList = () => {
+const EmployeesList = ({data}) => {
+
+    const elements = data.map(item => {
+        return (
+            <EmployeesListItem name={item.name} salary={item.salary} isIncrease={item.isIncrease}/>
+        )
+    })
+
     return (
         <div className="app-list list-group">
-            <EmployeesListItem/>
-            <EmployeesListItem/>
-            <EmployeesListItem/>
+            {elements}
         </div>
     )
 }
 
-export default EmployeesList;
+export default EmployeesList; 
