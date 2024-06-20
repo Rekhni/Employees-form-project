@@ -1,5 +1,5 @@
-import { Component } from 'react';
-import './employees-list-item.css';
+import React from 'react';
+import './employees-list-item.scss';
 
 const EmployeesListItem = (props) => {
 

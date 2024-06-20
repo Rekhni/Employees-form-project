@@ -1,3 +1,4 @@
+import React from 'react';
 import { Component } from 'react';
 
 import AppInfo from '../app-info/app-info';
@@ -64,7 +65,7 @@ class App extends Component {
     onToggleProp = (id, prop) => {
         this.setState(({data}) => ({
             data: data.map(item => {
-                if (item.id == id) {
+                if (item.id === id) {
                     return {...item, [prop]: !item[prop]}
                 }
                 return item;
@@ -73,7 +74,7 @@ class App extends Component {
     }
 
     searchEmp = (items, term) => {
-        if (term.length == 0) {
+        if (term.length === 0) {
             return items;
         }
 
