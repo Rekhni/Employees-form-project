@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Employees-form-project/static/css/main.443142e8.chunk.css",
+    "main.js": "/Employees-form-project/static/js/main.4f4b9daa.chunk.js",
+    "main.js.map": "/Employees-form-project/static/js/main.4f4b9daa.chunk.js.map",
+    "runtime-main.js": "/Employees-form-project/static/js/runtime-main.45d6e8b3.js",
+    "runtime-main.js.map": "/Employees-form-project/static/js/runtime-main.45d6e8b3.js.map",
+    "static/js/2.af68fada.chunk.js": "/Employees-form-project/static/js/2.af68fada.chunk.js",
+    "static/js/2.af68fada.chunk.js.map": "/Employees-form-project/static/js/2.af68fada.chunk.js.map",
+    "index.html": "/Employees-form-project/index.html",
+    "precache-manifest.aecea8f77caf25f9c1402d60265227ab.js": "/Employees-form-project/precache-manifest.aecea8f77caf25f9c1402d60265227ab.js",
+    "service-worker.js": "/Employees-form-project/service-worker.js",
+    "static/css/main.443142e8.chunk.css.map": "/Employees-form-project/static/css/main.443142e8.chunk.css.map",
+    "static/js/2.af68fada.chunk.js.LICENSE.txt": "/Employees-form-project/static/js/2.af68fada.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45d6e8b3.js",
+    "static/js/2.af68fada.chunk.js",
+    "static/css/main.443142e8.chunk.css",
+    "static/js/main.4f4b9daa.chunk.js"
+  ]
+}
